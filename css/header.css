@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 100%;
+}
+.header div.wrap {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+.header div.wrap:before{
+  content: "";
+  background-image: url(../img/title2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 342px;
+  height: 500px;
+  position: absolute;
+}
+.header div.wrap h1 {
+  
+  font-size: 85px;
+  width: 800px;
+  text-align: end;
+}
+.header div.wrap ul {
+  
+  width: 792px;
+  z-index: 1;
+}
+.header div.wrap ul li {
+  
+  margin-bottom: 10px;
+  text-align: right;
+}
