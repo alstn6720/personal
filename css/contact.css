@@ -1,0 +1,66 @@
+div.contact {
+  
+  width: 100%;
+  height: 100%;
+}
+div.contact div.wrap {
+  
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/footer.jpg);
+  background-position: bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+div.contact div.wrap div.text1 {
+  
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.contact div.wrap div.text1 h2 {
+  
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+div.contact div.wrap div.text1 ul {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div.contact div.wrap div.text1 ul li {
+  
+  font-size: 40px;
+}
+div.contact div.wrap div.text2 {
+  
+  width: 80%;
+  height: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  margin: 0 auto;
+}
+div.contact div.wrap div.text2 ul {
+  
+}
+div.contact div.wrap div.text2 ul li {
+  
+  font-size: 12px;
+}
+div.contact div.wrap div.icon {
+  
+}
+div.contact div.wrap div.icon ul {
+  
+}
+div.contact div.wrap div.icon ul li {
+  
+}

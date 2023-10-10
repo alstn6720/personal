@@ -20,11 +20,49 @@
   display: inline-block;
   position: relative;
   text-align: center;
-  color: #000;
-  font-family: Lato;
-  font-weight: 100;
-  margin: 2rem;
+  color: #ba1b1b;
+  /*! font-family: Lato; */
+  font-weight: 400;
+  margin: 1.8rem;
+  font-size: 20px;
 }
+.progress > li:nth-child(1){
+  color: #f36527;
+}
+.progress > li:nth-child(2){
+  color: #1572b7;
+}
+.progress > li:nth-child(3){
+  color: #121a27;
+}
+.progress > li:nth-child(4){
+  color: #fddf25;
+}
+.progress > li:nth-child(5){
+  color: #000000;
+}
+.progress > li:nth-child(6){
+  color: #c04d87;
+}
+.progress > li:nth-child(7){
+  color: #2da8fe;
+}
+.progress > li:nth-child(8){
+  color: #fd7719;
+}
+.progress > li:nth-child(9){
+  color: #00005a;
+}
+.progress > li:nth-child(10){
+  color: #1eaff0;
+}
+.progress > li:nth-child(11){
+  color: #c62222;
+}
+.progress > li:nth-child(12){
+  color: #e72b2c;
+}
+
 .progress > li:before {
   content: attr(data-name);
   position: absolute;
@@ -40,6 +78,7 @@
   left: 0;
   font-size: 2rem;
   text-align: center;
+  font-size: 29px;
 }
 .progress svg {
   width: 10rem;

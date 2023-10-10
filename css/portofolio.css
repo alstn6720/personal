@@ -3,11 +3,13 @@
   background-color: #fff;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 .portofolio div.wrap {
   
   width: 65%;
-  height: 100%;
+  height: 95%;
   position: relative;
   align-items: center;
   display: grid;
@@ -38,11 +40,36 @@
   grid-row: 2 / 3;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .portofolio div.wrap figure img{
   width: 95%;
   height: 90%;
 }
+.portofolio div.wrap figure p{
+  
+  width: 95%;
+  height: 90%;
+  background: url(../img/cgvmac.jpg) no-repeat;
+  background-size: contain;
+  font-size: 0;
+  position: relative;
+}
+.portofolio div.wrap figure p span{
+  
+  display: block;
+  width: 559px;
+  height: 296px;
+  position: absolute;
+  background: url(../img/cgvall.png) no-repeat;
+  left: 16px;
+  top: 17px;
+  background-size: cover;
+}
+.portofolio div.wrap figure p:hover span{
+  animation: enexScroll 10s ease infinite;
+}
+
 .portofolio div.wrap div.text1:before{
   content: "";
   width: 55px;
@@ -75,10 +102,23 @@
 .portofolio div.wrap div.text2 ul {
   
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
 }
 .portofolio div.wrap div.text2 ul li {
   
   color: #333;
+  font-size: 19px;
+}
+.portofolio div.wrap div.text2 ul li span{
+  
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 15px;
 }
 .portofolio div.wrap div.text3 {
   
