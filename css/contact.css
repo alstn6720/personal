@@ -7,19 +7,22 @@ div.contact div.wrap {
   
   width: 100%;
   height: 100%;
-  background-image: url(../img/footer.jpg);
-  background-position: bottom;
+  background-image: url(../img/footer.png);
+  background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 div.contact div.wrap div.text1 {
   
   width: 100%;
-  height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 }
 div.contact div.wrap div.text1 h2 {
   
@@ -41,12 +44,12 @@ div.contact div.wrap div.text1 ul li {
 div.contact div.wrap div.text2 {
   
   width: 80%;
-  height: 20%;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   display: flex;
   margin: 0 auto;
+  margin-top: 236px;
 }
 div.contact div.wrap div.text2 ul {
   

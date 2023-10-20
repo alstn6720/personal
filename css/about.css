@@ -1,47 +1,79 @@
 .about {
   
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 .about div.wrap {
   
+  width: 1200px;
+  height: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  gap: 55px;
-  background-color: #000;
-  height: 100%;
+  align-items: center;
 }
-.about div.wrap div.img {
+.about div.wrap div.textbox {
   
-  width: 600px;
-  height: 100%;
-  background-color: white;
+  width: 40%;
+  border-right: 1px solid;
+  margin-right: 38px;
+  margin-left: 100px;
 }
-.about div.wrap div.text {
+.about div.wrap div.textbox hgroup {
   
-  color: white;
+}
+.about div.wrap div.textbox hgroup h2 {
+  
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+.about div.wrap div.textbox hgroup h3 {
+  
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.about div.wrap div.textbox div.text {
+  
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
 }
-.about div.wrap div.text ul {
+.about div.wrap div.textbox div.text div.img {
   
-  display: flex;
-  gap: 10px;
-  margin-top: 30px;
+  width: 180px;
+  height: 200px;
+  margin-right: 25px;
+  background-color: #333;
+  margin-bottom: 20px;
 }
-.about div.wrap div.text ul:nth-of-type(1){
+.about div.wrap div.textbox div.text ul {
   
-  position: absolute;
-  top: 40px;
-  right: -225px;
-  border: 2px solid;
-  display: flex;
-  justify-content: center;
-  padding: 4px 20px;
-  border-radius: 14px;
 }
-.about div.wrap div.text ul li {
+.about div.wrap div.textbox div.text ul li {
   
+  margin-bottom: 13px;
+  color: #333;
+}
+.about div.wrap div.textbox p{
+  
+  margin-top: 20px;
+}
+.about div.wrap div.textbox2 {
+  
+  width: 40%;
+  height: 40%;
+}
+.about div.wrap div.textbox2 div {
+  
+  margin-bottom: 35px;
+}
+.about div.wrap div.textbox2 div h2 {
+  
+  font-size: 27px;
+}
+.about div.wrap div.textbox2 div p {
+  
+  margin-left: 23px;
+  margin-top: 7px;
+  font-family: 'Arita-dotum-Medium';
+  font-size: 14px;
+  color: #333;
 }

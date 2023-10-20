@@ -14,7 +14,7 @@
   display: inline-block;
   padding: 0;
   text-align: center;
-  width: 80%;
+  width: 68%;
 }
 .progress > li {
   display: inline-block;
@@ -25,42 +25,43 @@
   font-weight: 400;
   margin: 1.8rem;
   font-size: 20px;
+  margin-bottom: 58px;
 }
 .progress > li:nth-child(1){
-  color: #f36527;
+  color: #fff;
 }
 .progress > li:nth-child(2){
-  color: #1572b7;
+  color: #fff;
 }
 .progress > li:nth-child(3){
-  color: #121a27;
+  color: #fff;
 }
 .progress > li:nth-child(4){
-  color: #fddf25;
+  color: #fff;
 }
 .progress > li:nth-child(5){
-  color: #000000;
+  color: #fff;
 }
 .progress > li:nth-child(6){
-  color: #c04d87;
+  color: #fff;
 }
 .progress > li:nth-child(7){
-  color: #2da8fe;
+  color: #fff;
 }
 .progress > li:nth-child(8){
-  color: #fd7719;
+  color: #fff;
 }
 .progress > li:nth-child(9){
-  color: #00005a;
+  color: #fff;
 }
 .progress > li:nth-child(10){
-  color: #1eaff0;
+  color: #fff;
 }
 .progress > li:nth-child(11){
-  color: #c62222;
+  color: #fff;
 }
 .progress > li:nth-child(12){
-  color: #e72b2c;
+  color: #fff;
 }
 
 .progress > li:before {
@@ -74,15 +75,15 @@
   content: attr(data-percent);
   position: absolute;
   width: 100%;
-  top: 3.7rem;
+  top: 3.3rem;
   left: 0;
   font-size: 2rem;
   text-align: center;
-  font-size: 29px;
+  font-size: 21px;
 }
 .progress svg {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
 }
 .progress svg:nth-child(2) {
   position: absolute;
@@ -94,7 +95,7 @@
   fill: none;
   stroke-width: 25;
   stroke-dasharray: 629;
-  stroke: #fff;
+  stroke: #000;
   opacity: 0.9;
   -webkit-animation: load 10s;
           animation: load 10s;
@@ -105,6 +106,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 .skill div.wrap{
   width: 100%;
@@ -121,6 +123,7 @@
 }
 .skill div.wrap div.text h2{
   font-size: 50px;
+  color: white;
 }
 .skill div.wrap div.text ul{
   border: 2px solid;

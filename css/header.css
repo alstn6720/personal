@@ -24,9 +24,10 @@
 }
 .header div.wrap h1 {
   
-  font-size: 85px;
+  font-size: 81px;
   width: 800px;
   text-align: end;
+  font-family: 'Arita-dotum-Medium';
 }
 .header div.wrap ul {
   
